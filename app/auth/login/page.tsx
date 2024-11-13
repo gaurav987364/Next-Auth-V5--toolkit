@@ -1,6 +1,8 @@
+import Loginform from "@/components/auth/Loginform"
+
 const Login = () => {
   return (
-    <div>Login!</div>
+    <div><Loginform/></div>
   )
 }
 
