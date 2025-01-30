@@ -21,4 +21,4 @@ const BackButton = ({href, label}:Props) => {
   )
 }
 
-export default BackButton
+export default BackButton;

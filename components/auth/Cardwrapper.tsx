@@ -45,4 +45,4 @@ const Cardwrapper = ({
   )
 }
 
-export default Cardwrapper
+export default Cardwrapper;

@@ -14,4 +14,4 @@ const FormSuccess = ({message} : Props) => {
   )
 }
 
-export default FormSuccess
+export default FormSuccess;

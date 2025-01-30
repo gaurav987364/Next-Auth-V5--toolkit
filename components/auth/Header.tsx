@@ -12,7 +12,7 @@ const Header = ({label} : ClientProps) => {
             {label}
         </p>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
