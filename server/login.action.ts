@@ -15,4 +15,4 @@ export const Login = async (data : z.infer<typeof LoginSchema>) => {
     }
 
     return {success : "Email sent successfully."}
-}
+};

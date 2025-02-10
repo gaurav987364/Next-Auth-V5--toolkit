@@ -41,4 +41,4 @@ export const Register = async (data : z.infer<typeof RegisterSchema>) => {
     }
 
     return {success : "User created!"} 
-}
+};
