@@ -1,4 +1,4 @@
-import Loginform from "@/components/auth/Loginform"
+import Loginform from "@/components/auth/Loginform";
 
 const Login = () => {
   return (
@@ -6,4 +6,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;

@@ -1,4 +1,4 @@
-import RegisterForm from "@/components/auth/RegisterFrom"
+import RegisterForm from "@/components/auth/RegisterFrom";
 
 const Register = () => {
   return (
@@ -6,4 +6,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default Register;
