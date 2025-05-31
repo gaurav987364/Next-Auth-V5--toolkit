@@ -13,7 +13,7 @@ export const RegisterSchema = z.object({
     }),
     name: z.string().min(3,{
         message: "Name is required."
-    }).max(20,{
-        message: "Name not more than 20 characters long."
+    }).max(10,{
+        message: "Name not more than 10 characters long."
     })
 });
