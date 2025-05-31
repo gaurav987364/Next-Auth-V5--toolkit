@@ -11,7 +11,7 @@ export const Login = async (data : z.infer<typeof LoginSchema>) => {
     //bcrypt js
     
     if (!validateFields.success) {
-        return {error : "Invalid credentials!"}
+        return {error : "Invalid credentials."}
     }
 
     return {success : "Email sent successfully."}
