@@ -11,7 +11,6 @@ interface Props {
 const LoginButton = ({
     children,
     mode = "redirect",
-    asChild
 }: Props) => {
     const router = useRouter();
     const onClick = ()=>{
