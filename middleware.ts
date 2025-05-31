@@ -1,11 +1,11 @@
-import authConfig from "./auth.config"
-import NextAuth from "next-auth"
+import authConfig from "./auth.config";
+import NextAuth from "next-auth";
 
 const { auth } = NextAuth(authConfig) 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default auth((req) => {
   // req.auth
-})
+});
  
 // Optionally, don't invoke Middleware on some paths
 export const config = {
@@ -15,5 +15,5 @@ export const config = {
         // Always run for API routes
         '/(api|trpc)(.*)',
     ],
-}
+};
 // we use not typical matcher of next-auth documentation but we use the matcher from middleware documentation.
